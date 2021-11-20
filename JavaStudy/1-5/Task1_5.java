@@ -42,8 +42,11 @@ public class Task1_5 {
         
 
           for(int j = 1; j < 10; j++){
+            System.out.print(j + "||");
             for(int p = 1; p < 10; p++){
-              System.out.print(i + "||" + (j*p) + "|");
+              int num = j*p;
+            
+              System.out.print(num + "|");
             }
             System.out.println();
         }
