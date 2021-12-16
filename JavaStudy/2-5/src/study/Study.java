@@ -34,7 +34,9 @@ public class Study {
 
         // ② 以下の「shopMap.put(shohinList.get(1), 180);」の処理について、コメントを記述してください。
         /*
-         * [ここへ記述]
+         * [まず「shopMap」という辞書型を作成して、キーにリスト型の「shohinlist」の値を
+         * 値の部分にint型の値を渡している
+         *
          *
          */
         LinkedHashMap<String, Integer> shopMap = new LinkedHashMap<String, Integer>();
