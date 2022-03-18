@@ -4,14 +4,13 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath() %>/CSS/footer.css">
 <title>Insert title here</title>
 </head>
 <body>
-	<footer>
-		<div>
+	<div class="footer">
 			<label>hoge.Inc</label>
-		</div>
-	</footer>
+	</div>
 <!-- フッターを作成 -->
 
 </body>

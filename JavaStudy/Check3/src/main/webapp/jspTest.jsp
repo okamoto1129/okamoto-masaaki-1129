@@ -4,12 +4,18 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel=”stylesheet” type=”text/css” href=”../CSS/style.css”>
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath() %>/CSS/style.css">
 <title>Insert title here</title>
 </head>
 
 <body>
 <%@ include file="header.jsp" %>
+<div>
+<p>name
+<input type="password" name="example1"></p>
+<p>ID
+<input type="password" name="example1"></p>
+</div>
 
 <!-- name、idの入力エリアを作成しなさい -->
 <%@ include file="footer.jsp" %>

@@ -4,22 +4,19 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath() %>/CSS/header.css">
 <title>Insert title here</title>
 </head>
 <body>
 
-<header>
-	<div>
+ <div class="header">
 		<label>login</label>
-	</div>
 	<%@ page import="java.util.*,java.text.SimpleDateFormat"%>
-  <div>
    <% Date date = new Date();
       SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd");
       String formatDate = sdf.format(date);%>
    <%= formatDate %>
-  </div>
-</header>
+</div>
 
 <!-- </body>
 </html> -->
